@@ -1,0 +1,98 @@
+
+
+/* this is a className selector*/
+.container{
+    text-align: center;         /* this is centering my text*/ 
+    background-color: #f2f2f2;
+    width: 30em;   /* width and height is how I designed the box radius*/
+    height: 40em;
+    margin-right: auto;   /*margin-right and margin-left is how I center the box radius*/
+    margin-left: auto;
+    margin-top: 5rem;     /* this brings the box down*/  
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    opacity: 0.9;   /* this is what makes the box transparent*/ 
+  
+    
+}
+
+.cover {      /* This is how I coered the complete background*/
+   
+    background-image: url(/src/Images/UntitledDesign.png); 
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+   
+
+  
+  
+}
+
+.needs-validation{
+    margin-bottom: 0;
+    margin-top: 48px;
+}
+
+
+
+
+.registerFormHeader1{
+    color: rgb(30, 164, 208);
+    font-size: 55px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-variant: small-caps;
+    margin-top: 1rem;
+    text-shadow: 2px 2px 5px grey;
+}
+
+
+form{
+    margin-top: 5rem;    /* this brought the box for properties and the input boxes down so I can center them*/
+   
+}
+
+
+
+
+
+label{
+   font-size: 25px; 
+   font-family: "Lucida Console", "Courier New", monospace;
+
+   
+}
+
+
+/* this is an element selector*/
+input{
+    width: 80%;   /* this is the length of the input line*/
+    padding: 5px 13px;  /* this is the width and height of the input line*/
+    margin: 9px 0;   /* This puts padding inbetween the input lines */
+    margin-bottom: 1rem;  /*This made the properties close to the input box giving it space between the properties and inbox above it*/
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+/*  this is an Id selector*/
+#submitButton {
+    background-color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
+    padding: 8px 28px;
+    width: 80%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+
+p{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.signInB{
+    color: rgb(30, 164, 208);
+    border: none !important
+}
